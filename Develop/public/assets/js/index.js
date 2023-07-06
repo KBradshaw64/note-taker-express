@@ -25,6 +25,8 @@ const hide = (elem) => {
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
 
+// do i need to change these fetch routes? or is my /api route set up incorrectly?
+
 const getNotes = () =>
   fetch('/api/notes', {
     method: 'GET',
